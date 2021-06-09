@@ -5,9 +5,9 @@
         "**/.git/objects/**": true,
         "**/built/**": true,
         "**/node_modules/**": true,
+        "**/pxt_modules/**": true,
         "**/yotta_modules/**": true,
-        "**/yotta_targets": true,
-        "**/pxt_modules/**": true
+        "**/yotta_targets": true
     },
     "files.associations": {
         "*.blocks": "html",
@@ -16,8 +16,8 @@
     "search.exclude": {
         "**/built": true,
         "**/node_modules": true,
+        "**/pxt_modules": true,
         "**/yotta_modules": true,
-        "**/yotta_targets": true,
-        "**/pxt_modules": true
+        "**/yotta_targets": true
     }
 }

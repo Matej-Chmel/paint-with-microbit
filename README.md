@@ -1,31 +1,20 @@
-
-> Open this page at [https://matej-chmel.github.io/paint-with-microbit/](https://matej-chmel.github.io/paint-with-microbit/)
-
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/matej-chmel/paint-with-microbit** and import
-
+# Paint with Microbit
+This project lets you paint using your Microbit device.
+## Controls
+- Press **A** to move cursor by one pixel to the right
+    - When cursor moves out of the display it starts again
+from the top left corner
+- Press **B** to mark current pixel, it will then stay on when you move past it
+    - You can also unmark it by pressing **B** again
+- Press **A** and **B** simultaneously to clear the screen
+and start from the beginning
 ## Edit this project ![Build status badge](https://github.com/matej-chmel/paint-with-microbit/workflows/MakeCode/badge.svg)
 
 To edit this repository in MakeCode.
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/matej-chmel/paint-with-microbit** and click import
+* Open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* Click on **Import**, then click on **Import URL**
+* Paste **https://github.com/matej-chmel/paint-with-microbit** and click import
 
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/matej-chmel/paint-with-microbit/raw/master/.github/makecode/blocks.png)
-
-#### Metadata (used for search, rendering)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+> You can also view this page at
+[GitHub IO](https://matej-chmel.github.io/paint-with-microbit/).
